@@ -1,0 +1,176 @@
+/*  Цвет заголовков #2E2F42 */
+/* Основной цвет текста #434455 */
+/* акцент #434455 */
+/* цвет фона заголовка и футера #434455  */
+/* цвет фона секции #F4F4FD */
+
+:root{
+    --primary-text-color:#434455;
+    --title-text-color:#2E2F42;
+    --primary-white-color:#ffffff;
+    --accent-color:#4D5AE5;
+    --light-color:#F4F4FD;
+}
+
+body{
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height:1.5;
+}
+
+/* Логотип */
+.logo{
+    color: var(--title-text-color);
+    text-transform:uppercase;
+    font-family:'Raleway', sans-serif;
+    text-decoration:none;
+
+}
+
+.logo-web{
+    color:var(--accent-color);
+}
+
+/* Навигационные ссылки */
+.nav-links{
+    list-style:none;
+    font-weight:600;
+}
+
+.nav-links .link{
+    text-decoration:none;
+    color:var(--title-text-color);
+    font-weight:600;
+}
+
+.nav-links .link:hover,
+.nav-links .link:focus,
+.nav-links .link:active{
+    color:var(--accent-color);
+}
+/* Списки */
+.list{
+    list-style:none;
+}
+
+.head-address .link{
+    text-decoration:none;
+    color:var(--title-text-color);
+}
+
+/* Секция герой */
+.hero{
+background-color:var(--title-text-color);
+}
+
+.hero-title{
+    color: var(--primary-white-color);
+    font-size:56px;
+    font-weight:600;
+    font-size:56px;
+    line-height: 1.07;
+    text-align:center;
+}
+
+.button-title{
+    background-color:var(--accent-color);
+    border:none;
+    cursor: pointer;
+    font-family: inherit;
+    color:var(--primary-white-color);
+    font-weight:600; 
+    font-size: 16px;
+    line-height: 1.2;
+    
+}
+
+.button-title:active{
+    background-color:var(--accent-color);
+}
+
+/* Все секции в уникальном контенте первой страницы */
+.section{
+    background-color:var(--primary-white-color);
+}
+
+.section-title{
+    color:var(--title-text-color);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.1;
+}
+
+.visually-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+
+/* Команда инфо */
+.team-info{
+    background-color:var(--light-color);
+
+}
+
+.team-names{
+    color:var(--title-text-color);
+    font-weight:600;
+}
+
+/* Подвал */
+
+.basement{
+    background-color:var(--title-text-color);
+}
+
+.basement-text{
+    color:var(--primary-white-color);
+}
+
+.basement-logo{
+    color:var(--primary-white-color);
+    text-transform:uppercase;
+    font-family:'Raleway', sans-serif;
+    text-decoration:none;
+}
+
+/* PORTFOLIO PAGE */
+
+.portfolio-nav-links{
+    text-decoration:none;
+}
+
+.portfolio-nav-buttons{
+    color:var(--accent-color);
+    background-color:var(--light-color);
+    border:none;
+    font-family:inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.portfolio-nav-buttons:hover,
+.portfolio-nav-buttons:focus{
+    color:var(--primary-white-color);
+    background-color:var(--accent-color);
+    cursor: pointer;
+}
+
+
+.cashless-payment{
+    width: 360px;
+    height: 300px;
+    background-color:var(--accent-color);
+    color:var(--light-color);
+}
